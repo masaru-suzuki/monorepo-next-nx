@@ -26,7 +26,9 @@ export default async function Index() {
             {contents.map((post) => {
               return (
                 <li key={post.id}>
-                  <Link href={`/app02/${post.id}`}>{post.title}</Link>
+                  <Link href={`/${post.id}`}>
+                    {post.title}: {post.id}
+                  </Link>
                 </li>
               );
             })}
