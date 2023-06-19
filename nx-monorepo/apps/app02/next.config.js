@@ -13,10 +13,6 @@ const nextConfig = {
     // See: https://github.com/gregberge/svgr
     svgr: false,
   },
-  distDir: 'dist',
-  // experimental: {
-  //   outputFileTracingRoot: path.join(__dirname, '../../'),
-  // },
 };
 
 const plugins = [
