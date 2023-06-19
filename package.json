@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "@nx/next": "^16.3.2"
+  },
+  "volta": {
+    "node": "18.16.0"
   }
 }
