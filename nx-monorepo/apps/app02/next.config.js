@@ -14,9 +14,9 @@ const nextConfig = {
     svgr: false,
   },
   distDir: 'dist',
-  experimental: {
-    outputFileTracingRoot: path.join(__dirname, '../../'),
-  },
+  // experimental: {
+  //   outputFileTracingRoot: path.join(__dirname, '../../'),
+  // },
 };
 
 const plugins = [
