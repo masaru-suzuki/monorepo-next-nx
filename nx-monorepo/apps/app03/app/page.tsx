@@ -20,7 +20,7 @@ export default async function Index() {
     <div className={styles.page}>
       <div className={styles.wrapper}>
         <h1>Welcome to app03!</h1>
-        <h2>このページはブランドのニュースをお届けするサイトです</h2>
+        <h2>このページはapp03ブランドのニュースをお届けするサイトです</h2>
         <p>{time}</p>
         <div>
           <ul>
