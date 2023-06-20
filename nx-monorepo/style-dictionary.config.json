@@ -2,7 +2,7 @@
   "source": ["output.json"],
   "platforms": {
     "scss": {
-      "buildPath": "src/tokens/",
+      "buildPath": "libs/docs/tokens/",
       "transformGroup": "scss",
       "files": [
         {
@@ -16,7 +16,7 @@
       ]
     },
     "ts": {
-      "buildPath": "src/tokens/",
+      "buildPath": "libs/docs/tokens/",
       "transformGroup": "js",
       "files": [
         {
