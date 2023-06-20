@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 20 Jun 2023 00:57:34 GMT
+ * Generated on Tue, 20 Jun 2023 03:53:38 GMT
  */
 
 module.exports = {
@@ -40,12 +40,12 @@ module.exports = {
   },
   "brandA": {
     "theme": {
-      "value": "#f00",
+      "value": "#a84040",
       "type": "color",
       "filePath": "output.json",
       "isSource": true,
       "original": {
-        "value": "#f00",
+        "value": "#a84040",
         "type": "color"
       },
       "name": "BrandATheme",
