@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "design-sync": " ./node_modules/.bin/token-transformer tokens.json output.json && node design-token.js",
-    "start": "yarn nx serve --prodserver"
+    "start": "yarn nx serve --prodserver",
+    "build": "yarn nx build --prod"
   },
   "private": true,
   "dependencies": {
