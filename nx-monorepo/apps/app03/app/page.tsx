@@ -1,9 +1,9 @@
 import styles from './page.module.scss';
 import Link from 'next/link';
-import { getList } from '../../../libs/client';
+import { getNewsList } from '../../../libs/client';
 
 export default async function Index() {
-  const { contents } = await getList();
+  const { contents } = await getNewsList();
 
   const time = new Date().toLocaleDateString();
 
@@ -19,7 +19,8 @@ export default async function Index() {
   return (
     <div className={styles.page}>
       <div className={styles.wrapper}>
-        <h1>Welcome to app02!</h1>
+        <h1>Welcome to app03!</h1>
+        <h2>このページはブランドのニュースをお届けするサイトです</h2>
         <p>{time}</p>
         <div>
           <ul>
