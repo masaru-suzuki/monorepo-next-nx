@@ -1,3 +1,4 @@
+import { Blog } from './client';
 import { createClient } from 'microcms-js-sdk';
 import type {
   MicroCMSQueries,
@@ -28,15 +29,31 @@ export const client = createClient({
 });
 
 // ブログ一覧を取得
-export const getList = async (queries?: MicroCMSQueries) => {
+export const getNewsList = async (queries?: MicroCMSQueries) => {
   const listData = await client.getList<Blog>({
     endpoint: 'blogs',
-    queries,
+    queries: {
+      limit: 10,
+      filters: 'category2[contains]news',
+    },
   });
 
   // データの取得が目視しやすいよう明示的に遅延効果を追加
   // await new Promise((resolve) => setTimeout(resolve, 3000));
+  return listData;
+};
 
+export const getBlogList = async (queries?: MicroCMSQueries) => {
+  const listData = await client.getList<Blog>({
+    endpoint: 'blogs',
+    queries: {
+      limit: 10,
+      filters: 'category2[contains]blog',
+    },
+  });
+
+  // データの取得が目視しやすいよう明示的に遅延効果を追加
+  // await new Promise((resolve) => setTimeout(resolve, 3000));
   return listData;
 };
 
