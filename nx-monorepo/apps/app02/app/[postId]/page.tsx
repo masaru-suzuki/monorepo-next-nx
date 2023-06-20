@@ -1,9 +1,9 @@
 import { notFound } from 'next/navigation';
 import parse from 'html-react-parser';
-import { getList, getDetail } from '../../../../libs/client';
+import { getBlogList, getDetail } from '../../../../libs/client';
 
 export async function generateStaticParams() {
-  const { contents } = await getList();
+  const { contents } = await getBlogList();
 
   const paths = contents.map((post) => {
     return {
