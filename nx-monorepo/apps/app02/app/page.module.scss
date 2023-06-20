@@ -9,9 +9,13 @@
 .wrapper {
   display: grid;
   place-items: center;
+  justify-content: center;
+  place-content: center;
+  height: 100vh;
 
   & > h1 {
     font-size: 3rem;
+    margin-bottom: 2rem;
     color: $brand-a-theme;
   }
 }
