@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "design-sync": " ./node_modules/.bin/token-transformer tokens.json output.json && node design-token.js"
+    "design-sync": " ./node_modules/.bin/token-transformer tokens.json output.json && node design-token.js",
+    "start": "yarn nx serve --prodserver"
   },
   "private": true,
   "dependencies": {
