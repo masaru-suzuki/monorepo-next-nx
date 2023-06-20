@@ -1,9 +1,9 @@
 import styles from './page.module.scss';
 import Link from 'next/link';
-import { getList } from '../../../libs/client';
+import { getBlogList } from '../../../libs/client';
 
 export default async function Index() {
-  const { contents } = await getList();
+  const { contents } = await getBlogList();
 
   const time = new Date().toLocaleDateString();
 
