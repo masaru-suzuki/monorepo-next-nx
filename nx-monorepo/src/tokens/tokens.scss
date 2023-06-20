@@ -1,0 +1,41 @@
+
+/**
+ * Do not edit directly
+ * Generated on Mon, 19 Jun 2023 21:15:37 GMT
+ */
+
+$token-set-order-3: brandD !default;
+$token-set-order-2: brandC !default;
+$token-set-order-1: brandB !default;
+$token-set-order-0: brandA !default;
+$brand-c-secondary: #bec1ff !default;
+$brand-c-theme: #0012ff !default;
+$brand-b-secondary: #f9ffa3 !default;
+$brand-b-theme: #efff00 !default;
+$brand-a-secondary: #ff9898 !default;
+$brand-a-theme: #f00 !default;
+$secondary-color: #403980 !default;
+$theme-color: #00ff57 !default;
+
+$css-tokens: (
+  'theme-color': $theme-color,
+  'secondary-color': $secondary-color,
+  'brandA': (
+    'theme': $brand-a-theme,
+    'secondary': $brand-a-secondary
+  ),
+  'brandB': (
+    'theme': $brand-b-theme,
+    'secondary': $brand-b-secondary
+  ),
+  'brandC': (
+    'theme': $brand-c-theme,
+    'secondary': $brand-c-secondary
+  ),
+  'tokenSetOrder': (
+    '0': $token-set-order-0,
+    '1': $token-set-order-1,
+    '2': $token-set-order-2,
+    '3': $token-set-order-3
+  )
+);

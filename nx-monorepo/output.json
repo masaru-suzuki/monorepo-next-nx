@@ -1,0 +1,58 @@
+{
+  "theme-color": {
+    "value": "#00ff57",
+    "type": "color"
+  },
+  "secondary-color": {
+    "value": "#403980",
+    "type": "color"
+  },
+  "brandA": {
+    "theme": {
+      "value": "#f00",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "#ff9898",
+      "type": "color"
+    }
+  },
+  "brandB": {
+    "theme": {
+      "value": "#efff00",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "#f9ffa3",
+      "type": "color"
+    }
+  },
+  "brandC": {
+    "theme": {
+      "value": "#0012ff",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "#bec1ff",
+      "type": "color"
+    }
+  },
+  "tokenSetOrder": {
+    "0": {
+      "value": "brandA",
+      "type": "other"
+    },
+    "1": {
+      "value": "brandB",
+      "type": "other"
+    },
+    "2": {
+      "value": "brandC",
+      "type": "other"
+    },
+    "3": {
+      "value": "brandD",
+      "type": "other"
+    }
+  }
+}
