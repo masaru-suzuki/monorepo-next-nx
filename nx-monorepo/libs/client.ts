@@ -1,4 +1,3 @@
-import { Blog } from './client';
 import { createClient } from 'microcms-js-sdk';
 import type {
   MicroCMSQueries,
